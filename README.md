@@ -23,3 +23,7 @@ Finally, copy and paste the code into the style editor then click "Save".
 ![image 3](https://user-images.githubusercontent.com/47619533/86510441-28bf1b80-be22-11ea-8659-b0569f99804d.png)
 
 Now you've successfully installed the style. If nothing has changed, try refresh the page or restart your browser.
+
+## Feedback & Support
+* [Contact me](https://shudesigns.tumblr.com/support)
+* [Buy me a coffee!](https://ko-fi.com/shudesigns)
