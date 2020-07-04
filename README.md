@@ -18,7 +18,7 @@ Next you will be redirected to the management panel for all your installed style
 
 ![image 2](https://user-images.githubusercontent.com/47619533/86510439-28268500-be22-11ea-9756-88386dba0e17.png)
 
-Finally, copy and paste the code into the style editor then click "Save".
+Finally, copy and paste [the code](https://github.com/shudesigns/olddashfont/blob/master/style.css) into the style editor then click "Save".
 
 ![image 3](https://user-images.githubusercontent.com/47619533/86510441-28bf1b80-be22-11ea-8659-b0569f99804d.png)
 
