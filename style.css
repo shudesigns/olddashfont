@@ -29,6 +29,14 @@
     font-size: calc(13rem/14) !important;
 }
 
+/* chatbox (dropdown) */ ._3TBjk ._1SqPY ._28T7I,
+/* chatbox user info */ ._2Z6ks,
+/* chatbox "mark as spam" */ ._2vejt, ._2vejt ._218Mw,
+/* activity (x days ago)*/ ._3a_31, ._3T1T0,
+/* activity (notes) */ .vBcUK {
+    font-size: calc(12.5rem/14) !important;
+}
+
 /* sidebar */ ._27qMJ, ._3UhFl,
 /* sidebar dropdown */ ._2U-M4 ._1dLVj .XcYVy,
 /* sidebar dropdown "change palette/new!" */ ._1Ts5C, ._3h1w4,
@@ -42,7 +50,8 @@
 /* user info card action buttons */ ._2LUdG ._2qdYK, ._3hRvh,
 /* blog description */ ._1AcPw,
 /* tags you follow */ ._3zmzo,
-/* filtered tags */ .LihFc, ._2oITk {
+/* filtered tags */ .LihFc, ._2oITk,
+/* chatbox*/ ._3_xC9 {
     font-size: 1rem !important;
 }
 
@@ -73,7 +82,8 @@
 /* user info card content */ ._1AcPw._2myj6,
 /* user info card action buttons */ ._2LUdG ._2qdYK, ._3hRvh,
 /* blog description */ ._1AcPw,
-/* recommended blogs ("check out these blogs") */ .Xwfnm {
+/* recommended blogs ("check out these blogs") */ .Xwfnm,
+/* chatbox (dropdown) */ ._3TBjk ._1SqPY ._28T7I {
     line-height: 1.5;
 }
 
@@ -179,6 +189,14 @@
 /* post note reply input */
 ._2TSny ._3e-z3, ._2TSny ._3xYIs {
     min-height: calc(40rem/14);
+}
+
+/* -- ACTIVITY ----------- */
+
+/* reblogged text / tags */
+._1v-Ux {
+    margin-top: .5rem;
+    font-size: calc(12rem/14);
 }
 
 /* -- OTHERS ------------- */
