@@ -13,9 +13,9 @@
 /* recommended sections "explore all of tumblr" */ .W2NKg,
 /* post header */ .L5OmD, ._1dMlV,
 /* post header reblogged url */ ._1vRpg, ._3QBiZ, ._2b3B7, ._1l1OO,
-/* post reblogged header */ ._2zTTs,
+/* post reblogged header */ ._2zTTs, .r_IvO,
 /* post ask asker */ ._1eGuT ._2Awh5 ._1GpDQ, ._1eGuT ._2Awh5 ._2Y_1u,
-/* post tags */ .pOoZl, .pOoZl .L0N4W, ._2BwP0,
+/* post tags */ .pOoZl, .pOoZl .L0N4W, ._2BwP0, ._2BwP0 ._14q4R,
 /* post tags text (e.g. pinned post) */ .pOoZl ._nUEo,
 /* post source */ .hjr__, ._28g6n, ._191AP,
 /* post footer */._2dGhQ, 
@@ -41,7 +41,7 @@
 /* sidebar dropdown */ ._2U-M4 ._1dLVj .XcYVy,
 /* sidebar dropdown "change palette/new!" */ ._1Ts5C, ._3h1w4,
 /* recommended sections (check out these blogs/radar/sponsored) */ .Xwfnm,
-/* post content */ ._2m1qj,
+/* post content */ ._2m1qj, ._3MF9s,
 /* post footer buttons */ ._33VXm, 
 /* post notes note count */ ._2C7HC .Cs_JH .vtX8i,
 /* post notes content */ ._3IfFb,
@@ -63,11 +63,11 @@
 /* recommended sections "explore all of tumblr" */ .W2NKg,
 /* post header */ .L5OmD, ._1dMlV,
 /* post header reblogged url */ ._1vRpg, ._3QBiZ, ._2b3B7, ._1l1OO,
-/* post content */ ._2m1qj,
+/* post content */ ._2m1qj, ._3MF9s,
 /* post ask asker */ ._1eGuT ._2Awh5 ._1GpDQ, ._1eGuT ._2Awh5 ._2Y_1u,
-/* post reblogged header */ ._2zTTs,
-/* post reblogged header follow button */ ._2eajK,
-/* post tags */ .pOoZl, .pOoZl .L0N4W, ._2BwP0,
+/* post reblogged header */ ._2zTTs, .r_IvO,
+/* post reblogged header follow button */ ._2eajK, ._2fO31,
+/* post tags */ .pOoZl, .pOoZl .L0N4W, ._2BwP0, ._2BwP0 ._14q4R,
 /* post tags text (e.g. pinned post) */ .pOoZl ._nUEo,
 /* post source */ .hjr__, ._28g6n, ._191AP,
 /* post footer */ ._2dGhQ,
@@ -135,7 +135,8 @@
 }
 
 /* post link style */
-._2m1qj a {
+  ._2m1qj a,
+  ._3MF9s a {
     text-decoration: none;
     background-image: linear-gradient(180deg, rgba(var(--rgb-black), 0) 50%, rgba(var(--rgb-black), 0.15) 0);
     background-repeat: repeat-x;
@@ -147,7 +148,7 @@
 ._3s7wL {
     text-decoration: none;
 }
-/* post reblogged header follow button */ ._2eajK {
+/* post reblogged header follow button */ ._2eajK, ._2fO31 {
     font-size: calc(11rem/14) !important;
 }
 /* post ask asker */
@@ -162,7 +163,8 @@
     padding-bottom: 0;
 }
 /* post tag */
-.pOoZl .L0N4W:hover {
+.pOoZl .L0N4W:hover,
+._2BwP0 ._14q4R:hover {
     text-decoration: none;
     opacity: .7;
 }
@@ -172,7 +174,8 @@
     width: calc(16rem/14);
     height: calc(16rem/14);
 }
-._36wTL svg {
+._36wTL svg,
+._2b3B7 svg {
     width: 1rem;
     height: calc(13rem/14);
 }
@@ -203,6 +206,9 @@
 
 /* search bar */ ._2iUzn ._3Xaga {
     font-size: calc(15rem/14) !important;
+}
+/* notification count */ ._2_oyi, ._3MY-Y {
+    font-size: calc(12rem/14)
 }
 
 /* -- XKIT --------------- */
